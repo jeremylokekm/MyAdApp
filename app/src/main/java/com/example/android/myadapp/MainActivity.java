@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
     {
         startActivity(new Intent(this, BannerActivity.class));
     }
+
+    public void launchInterstitialAd(View unusedView)
+    {
+        startActivity(new Intent(this, InterstitialActivity.class));
+    }
 }

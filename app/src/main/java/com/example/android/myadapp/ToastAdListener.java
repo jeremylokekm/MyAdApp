@@ -53,7 +53,7 @@ public class ToastAdListener extends AdListener{
                 break;
         }
         Toast.makeText(mContext,
-                String.format("onAdFailedToLoad(%s)", mErrorReason),
+                String.format("onAdFailedToLoad(%s) ACTIVATED", mErrorReason),
                 Toast.LENGTH_SHORT).show();
     }
 
