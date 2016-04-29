@@ -19,10 +19,10 @@
             </intent-filter>
         </activity>
 
-        <!--<activity android:name=".BannerActivity"
-            android:label="Interstitial Ad"/>
+        <activity android:name=".BannerActivity"
+            android:label="Banner Ad"/>
 
-        <activity android:name=".InterstitialActivity"
+        <!--<activity android:name=".InterstitialActivity"
             android:label="Interstitial Ad"/> -->
 
         <!--Activity required to show ad overlays -->
